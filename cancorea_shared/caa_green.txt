@@ -1,0 +1,12 @@
+body{
+	background: #779E29 url(greenleaves.jpg) no-repeat fixed;
+	font: "Trebuchet MS", Arial, sans-serif; 
+}
+
+#wrap { 
+	background :#E1F999; 
+	width: 80% 
+	margin: 0 auto; 
+	opacity : 0.95%; 
+}
+
