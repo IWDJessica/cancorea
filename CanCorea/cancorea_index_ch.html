@@ -3,7 +3,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cancorea-holdings</title>
-      <link rel="stylesheet" type="text/css" media="screen" href="cancorea_css.css">          
+      <link rel="stylesheet" type="text/css" media="screen" href="cancorea_css.css">
+      <link href="https://fonts.googleapis.com/css?family=Italianno&amp;display=swap" rel="stylesheet">
+    
   </head>
 
   <body>   
@@ -16,24 +18,24 @@
             <li><a href="#inve">INVESTMENT</a></li>
             <li><a href="#sett">SETTLEMENT</a></li>
             <li><a href="#cont">CONTACT</a></li>
-            <select id="mySelect" onchange="myFunction()">
-                <option value="English">En
-                <option value="Korean">한
-                <option value="Chinese">中                
+             <select id="mySelect" onchange="myFunction()">
+				<option value="Chinese">中
+				<option value="English">En
+				<option value="Korean">한
             </select>
-         </ul>
+          </ul>
         </nav>
       </header>
 
       
       <section id="main">       
          <h3>Design your life</h3> 
-		 
+		 中國語
       </section>
 
       <div id="wrap">
        <section id="deve">
-        <h2>DEVELOPMENT</h2>
+        <h2>건축</h2>
         <img src="images/dev1.jpg" alt="development house image" >
         <img src="images/dev2.jpg" alt="development town image" >
         <img src="images/dev3.jpg" alt="development town image" >
@@ -94,20 +96,20 @@
     </section>
 <script>
 
-function myFunction() {
-    var page = document.getElementById("mySelect").value;
+function myFunction() {    
+    var page = document.getElementById("mySelect").value; 
     if (page == "Korean") {
         location.replace("cancorea_index_ko.html");
     }    
-    else if(page == "Chinese") {
-        location.replace("cancorea_index_ch.html");
-    }
-    else
-    {
+    else if(page == "English") {
         location.replace("cancorea_index.html");
     }
-	
+    else 
+    {
+        location.replace("cancorea_index_ch.html");
+    }
 }
+
 
 </script>
 </body>
