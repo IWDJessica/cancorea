@@ -3,27 +3,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cancorea-holdings</title>
-      <link rel="stylesheet" type="text/css" media="screen" href="cancorea_css.css">          
+      <link rel="stylesheet" type="text/css" media="screen" href="main.css">    
+      <link rel="stylesheet" href="font-awesome\css\all.css">
+      <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet">
+	  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
   </head>
 
   <body>   
       <header>
-          <h1><a href="#main">CANCOREA</a></h1>
+            <h1><a href="#main"><img src="images/logo_cancorea_bl.png" alt="cancorea logo"></a></h1>
+            
+        <div class="m-container">
+        <!-- Top Navigation Menu -->
+            <div class="topnav"><a href="#home" class="active"><img src ="images/logo_cancorea_bl.png"></a>
+                <div id="myLinks">
+                    <a href="#deve">Development</a>
+                    <a href="#reno">Renovation</a>
+                    <a href="#inve">Investment</a>
+                    <a href="#sett">Settlement</a>
+                    <a href="#cont">Contact Us</a>
+                    <a href="korea.html">한국어 <img class ="flag" src = "icons/fl_korea.png"></a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+                        <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        <!-- End smartphone / tablet look -->
+        </div>
+        
         <nav>
-          <ul>
-            <li><a href="#deve">DEVELOPMENT</a></li>
-            <li><a href="#reno">RENOVATION</a></li>
-            <li><a href="#inve">INVESTMENT</a></li>
-            <li><a href="#sett">SETTLEMENT</a></li>
-            <li><a href="#cont">CONTACT</a></li>
-            <select id="mySelect" onchange="myFunction()">
-                <option value="English">En
-                <option value="Korean">한
-                <option value="Chinese">中                
-            </select>
-         </ul>
+            <ul class ="menu-span">
+                <li><a href="#deve">DEVELOPMENT</a></li>
+                <li><a href="#reno">RENOVATION</a></li>
+                <li><a href="#inve">INVESTMENT</a></li>
+                <li><a href="#sett">SETTLEMENT</a></li>
+                <li><a href="#cont">CONTACT US</a></li>
+
+                <select id="mySelect" onchange="myFunction1()">
+                    <option value="English">En
+                    <option value="Korean">한
+                    <!-- <option value="Chinese">中                -->
+                </select>
+            </ul>
         </nav>
-      </header>      
+      </header> 
+
       <section id="main">
          <h3>Design your life</h3> 
 		 <img src="images/flower1.jpg" alt="flower image" >
@@ -32,81 +58,103 @@
       <div id="wrap">
        <section id="deve">
         <h2>DEVELOPMENT</h2>
-        <img src="images/dev1.jpg" alt="development house image" >
-        <img src="images/dev2.jpg" alt="development town image" >
-        <img src="images/dev3.jpg" alt="development town image" >
-        <p> Develope New Buildings</p>
+            <img class ="dev1" src="images/dev1.jpg" alt="development house image" >
+            <img class ="dev0" src="images/dev2.jpg" alt="development town image" >
+            <img class ="dev0" src="images/dev3.jpg" alt="development town image" >
+            <p> In Cancorea is <strong>ergonomics</strong> centered. We are building the space for human beings and read your minds; 
+                your mind is staying with us. With Cancorea, you can stay in your space with better comfort and 
+                refresh yourself the best. At Cancorea, you can see the <strong>renovative prototype</strong> of modern housing system, 
+                meeting the need of the local community. With schematic feasibility, we do survey, design, construct, 
+                acquire permits, and provide with the documents and drawings for the project. </p>
       </section>
      
 
       <section id="reno">
           <h2>RENOVATION</h2>
-          <img src="images/reno1.jpg" alt="renovation drawing image">
-          <img src="images/reno2.jpg" alt="renovation measuring image">
-          <img src="images/reno3.jpg" alt="renovation wall image">
-          <p>Refresh The Nest</p>
+          <img class ="dev1" src="images/reno1.jpg" alt="renovation drawing image">
+          <img class ="dev0" src="images/reno2.jpg" alt="renovation measuring image">
+          <img class ="dev0" src="images/reno3.jpg" alt="renovation wall image">
+          <p>The end is more important than the start to us. Not merely do we value the good beginning, but also, 
+              we are good at completing the project <strong>upon the request of our customers.</strong> We provide a variety of solutions 
+              so as to prevent customers’ real estate from being deteriorated, improve the <strong>feasibility</strong>, increase the value 
+              of the property, and return better lease profits.  </p>
       </section>
 
       <section id="inve">
           <h2>INVESTMENT</h2>
-          <img src="images/inv1.jpg" alt="investment calculation image">
-          <img src="images/inv2.jpg" alt="investment bills image">
-          <img src="images/inv3.jpg" alt="investment coins image">
-          <p>Show Me The Money</p>
+          <img class ="dev1" src="images/inv1.jpg" alt="investment calculation image">
+          <img class ="dev0" src="images/inv2.jpg" alt="investment bills image">
+          <img class ="dev0" src="images/inv3.jpg" alt="investment coins image">
+          <p>How does Cancorea help you make money in Canada?  Cancorea is a <strong>Real Estate Investment Trust and a real estate flipper</strong>. 
+              Our investment specialists recruit investors and lead them to stable and high potential property.  We are sure to pay 
+              high dividends to our investors as a <strong>real estate platform</strong>, which is the best plan for your retirement. We invest 
+              in rental properties by fixing up, reselling properties, and renting out a room. Given the current trend of indirect 
+              real-estate investment market, you will experience the total package of real-estate investment program of Cancorea.  
+              We seek mutual and sustainable growth.  </p>
       </section>
 
         <section id="sett">
             <h2>SETTLEMENT</h2>
-            <img src="images/set2.jpg" alt="settlement people image">
-            <img src="images/set1.jpg" alt="settlement connected image">
-            <img src="images/set3.jpg" alt="settlement finance image">
-              <p>Make You Comfortable</p>
+            <img class= "dev0" src="images/set2.jpg" alt="settlement people image">
+            <img class= "dev0" src="images/set1.jpg" alt="settlement connected image">
+            <img class= "dev1" src="images/set3.jpg" alt="settlement finance image">
+              <p>Cancorea members are <strong>settlement-specialists</strong> in various fields; starting from visa procedures to housing advice, 
+                  tax & legal service, insurance, education, tourism, and all the fundamentals to settle down in a foreign country. 
+                  We find the best home in Canada for your promising future.  Our settlement service is tailored to each customer 
+                  and his or her circumstances. So, we can guarantee <strong>fast and stable settlement service</strong> for new comers to Canada. 
+                  We understand exactly what the new comers need and make it happen. </p>
         </section>
     </div>
     </section>
     <section id="cont">        
             <div class="container">
                 <form id="contact" action="" method="post">
-                    <h3> Contact Us </h3>
-                    <fieldset>
-                        <input placeholder="Your name" type="text" tabindex="1" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Your Web Site (optional)" type="url" tabindex="4">
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                    </fieldset>                    
+                    
+                    <h4> We are here to serve you. </h4> <br>
+                    <span class="email">&nbsp; &nbsp; &nbsp;<i class="far fa-envelope"></i>&nbsp;<a href="mailto:info@cancorea-holdings.com">info@cancorea-holdings.com</a></span><br><br>
+                    <span class="map">&nbsp; &nbsp; &nbsp;<i class="far fa-map"></i>&nbsp;<a link href="https://goo.gl/maps/5buon8d3N69s8h6o9">
+                           380 Adelaide Street North, London, Ontario</a></span><br><br>
+                    <span class="phone">&nbsp; &nbsp; &nbsp;<i class="fas fa-mobile-alt">&nbsp; </i><a href="tel:+1 519 282 6088">+1 519 282 6088</a></span><br>                         
                 </form>
-             </div>     
-        <h5> ©copyright 2019 webmaster @ cancorea-holdings </h5>    
+             </div>
+            <footer>
+                    <h5> Copyiright © 2019 - Cancorea-Holdings </h5>  
+            </footer>       
     </section>
-<script>
 
-function myFunction() {
+
+    
+    <script>
+
+    function myFunction1() {
     var page = document.getElementById("mySelect").value;
-    if (page == "Korean") {
-        location.replace("cancorea_index_ko.html");
-    }    
-    else if(page == "Chinese") {
-        location.replace("cancorea_index_ch.html");
+        if (page == "Korean") {
+            location.replace("korea.html");
+        }    
+        // else if(page == "Chinese") {
+        //     location.replace("china.html");
+        // }
+        else
+        {
+            location.replace("index.html");
+        }
+        
     }
-    else
-    {
-        location.replace("cancorea_index.html");
-    }
-	
-}
 
-</script>
-</body>
+    function myFunction2() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+    }
+
+    var nav = document.getElementById("myLinks");
+
+    // when the 'click' event is fired on the nav element, call the provided function
+    nav.addEventListener('click', myFunction2);
+
+    </script>
+    </body>
 </html>

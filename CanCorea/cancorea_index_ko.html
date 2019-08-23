@@ -3,110 +3,148 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cancorea-holdings</title>
-      <link rel="stylesheet" type="text/css" media="screen" href="cancorea_css.css">
-      <link href="https://fonts.googleapis.com/css?family=Italianno&amp;display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">    
+    <link rel="stylesheet" href="font-awesome\css\all.css">
+    <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1&display=swap" rel="stylesheet">
+   
   </head>
 
   <body>   
       <header>
-          <h1><a href="#main">CANCOREA</a></h1>
+          <h1><a href="#main"><img src="images/logo_cancorea_bl.png" alt="cancorea logo" ></a></h1>
+
+          <div class="m-container">
+                <!-- Top Navigation Menu -->
+                    <div class="topnav"><a href="#home" class="active"><img src ="images/logo_cancorea_bl.png"></a>
+                        <div id="myLinks">
+                            <a href="#deve">건축및 개발</a>
+                            <a href="#reno">리모델링</a>
+                            <a href="#inve">안심투자</a>
+                            <a href="#sett">정착서비스</a>
+                            <a href="#cont">친절한 상담</a>
+                            <a href="index.html">English <img class ="flag" src = "icons/fl_canada.png"></a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                <!-- End smartphone / tablet look -->
+            </div>
+
         <nav>
-          <ul>
+          <ul class ="menu-span">
             <li><a href="#deve">DEVELOPMENT</a></li>
             <li><a href="#reno">RENOVATION</a></li>
             <li><a href="#inve">INVESTMENT</a></li>
             <li><a href="#sett">SETTLEMENT</a></li>
-            <li><a href="#cont">CONTACT</a></li>
-            <select id="mySelect" onchange="myFunction()">
+            <li><a href="#cont">CONTACT US</a></li>
+            <select id="mySelect" onchange="myFunction1()">
 				<option value="Korean">한
 				<option value="English">En
-				<option value="Chinese">中
+				<!-- <option value="Chinese">中 -->
             </select>
 			
           </ul>
         </nav>
       </header>      
       <section id="main">       
-         <h3>Design your life</h3> 
-		 한국어 
+         <h3>Design your life</h3>
+		 <img src="images/flower1.jpg" alt="flower image" >
       </section>
 
       <div id="wrap">
        <section id="deve">
-        <h2>건축</h2>
-        <img src="images/dev1.jpg" alt="development house image" >
-        <img src="images/dev2.jpg" alt="development town image" >
-        <img src="images/dev3.jpg" alt="development town image" >
-        <p> Develope New Buildings</p>
+        <h2>건축과 개발</h2>
+        <img class= "dev0" src="images/dev1.jpg" alt="development house image" >
+        <img class= "dev1" src="images/dev2.jpg" alt="development town image" >
+        <img class= "dev0" src="images/dev3.jpg" alt="development town image" >
+        <p> 사람이 머무는 공간, 마음이 숨쉬는 공간, <strong>사람의 마음</strong>을 짓습니다. 
+            사람을 위한 혁신적인 <strong>주거 프로토타입</strong>을 제시하고, 그에 맞는 건축 및 개발을 시행하고 지역 
+            사회에 활성화된 기반을 제공할 수 있도록 최선을 다하겠습니다.</p>
       </section>
      
 
       <section id="reno">
-          <h2>리모델링</h2>
-          <img src="images/reno1.jpg" alt="renovation drawing image">
-          <img src="images/reno2.jpg" alt="renovation measuring image">
-          <img src="images/reno3.jpg" alt="renovation wall image">
-          <p>Refresh The Nest</p>
+          <h2>리모델링, 유지및 보수</h2>
+          <img class= "dev0" src="images/reno1.jpg" alt="renovation drawing image">
+          <img class= "dev1" src="images/reno2.jpg" alt="renovation measuring image">
+          <img class= "dev0" src="images/reno3.jpg" alt="renovation wall image">
+          <p>“<strong>끝맺음이 시작보다 더 큰 가치</strong>” 고객의 입장에서 다양한 솔루션을 제공하여 기존 
+              부동산의 노후화를 억제하고 기능을 개선해 고객님의 자산가치를 증대시키고, 임대 수익성을 증대시킵니다.</p>
       </section>
 
       <section id="inve">
-          <h2>투자</h2>
-          <img src="images/inv1.jpg" alt="investment calculation image">
-          <img src="images/inv2.jpg" alt="investment bills image">
-          <img src="images/inv3.jpg" alt="investment coins image">
-          <p>Show Me The Money</p>
+          <h2>안정된 수익으로 이어지는 안심투자</h2>
+          <img class= "dev0" src="images/inv1.jpg" alt="investment calculation image">
+          <img class= "dev0" src="images/inv2.jpg" alt="investment bills image">
+          <img class= "dev1" src="images/inv3.jpg" alt="investment coins image">
+          <p>다수의 투자자들로부터 모집된 투자금을 변동성이 적고 향후 가치상승 잠재력이 높은 부동산에 투자하고, 
+              이로부터 발생되는 수익을 투자자들에게 분배하는 <strong>부동산투자회사</strong>입니다.
+              급속 성장하고 있는 부동산 간접투자 시장 변화에 맞춰 안정적, 고수익 상품에 <strong>‘투자∙개발∙운영’</strong>을 전문으로 
+              하는 종합부동산 전문 투자기업으로 지속가능한 고객과의 동반 성장기반을 마련해 나가도록 하겠습니다.
+                </p>
       </section>
 
         <section id="sett">
-            <h2>정착서비스</h2>
-            <img src="images/set2.jpg" alt="settlement people image">
-            <img src="images/set1.jpg" alt="settlement connected image">
-            <img src="images/set3.jpg" alt="settlement finance image">
-              <p>Make You Comfortable</p>
+            <h2>전문가가 함께 하는 정착서비스</h2>
+            <img class= "dev0" src="images/set2.jpg" alt="settlement people image">
+            <img class= "dev0" src="images/set1.jpg" alt="settlement connected image">
+            <img class= "dev1" src="images/set3.jpg" alt="settlement finance image">
+              <p>캐나다 현지의 안정된 정착을 위해 필요한 <strong>비자, 부동산, 세무, 법률, 교육, 그리고 보험</strong>을 포함한 모든 서비스를 
+                직접 관리하고 진행해 드립니다. 다양하고 세심한 전문가로 구성된 정착 전문기업 입니다. 
+                정착을 원하시는 현지의 정보를 정확하게 파악하여, 이민을 계획하는 가정의 안정되고 빠른 정착을 도와 드립니다. 
+                고객의 필요를 채워드릴 수 있도록 최선을 다하겠습니다. </p>
         </section>
     </div>
     </section>
     <section id="cont">        
             <div class="container">
                 <form id="contact" action="" method="post">
-                    <h3> Contact Us </h3>
-                    <fieldset>
-                        <input placeholder="이름" type="text" tabindex="1" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="이메일주소" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="전화번호(선택)" type="tel" tabindex="3" required>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="웹사이트(선택)" type="url" tabindex="4">
-                    </fieldset>
-                    <fieldset>
-                        <textarea placeholder="내용" tabindex="5" required></textarea>
-                    </fieldset>
-                    <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">보내기</button>
-                    </fieldset>                    
+                    
+                    <h4> 문의주셔서 감사합니다.</h4> <br>
+                    <span class="email">&nbsp; &nbsp;<i class="far fa-envelope"></i>&nbsp;<a href="mailto:info@cancorea-holdings.com">info@cancorea-holdings.com</a></span><br><br>
+                    <span class="map">&nbsp; &nbsp;<i class="far fa-map"></i>&nbsp;<a link href="https://goo.gl/maps/5buon8d3N69s8h6o9">
+                           380 Adelaide Street North, London, Ontario</a></span><br><br>
+                    <span class="phone">&nbsp; &nbsp;<i class="fas fa-mobile-alt">&nbsp; </i><a href="tel:+1 519 282 6088">+1 519 282 6088</a></span><br>                         
                 </form>
-             </div>     
-        <h5> ©copyright 2019 webmaster @ cancorea-holdings </h5>    
+             </div>
+            <footer>
+                    <h5> Copyiright © 2019 - Cancorea-Holdings </h5>  
+            </footer>       
     </section>
+
 <script>
-function myFunction() {
-    var page = document.getElementById("mySelect").value; 
-    if (page == "English") {
-        location.replace("cancorea_index.html");
-    }    
-    else if(page == "Chinese") {
-        location.replace("cancorea_index_ch.html");
+  function myFunction1() {
+    var page = document.getElementById("mySelect").value;
+        if (page == "Korean") {
+            location.replace("korea.html");
+        }    
+        // else if(page == "Chinese") {
+        //     location.replace("china.html");
+        // }
+        else
+        {
+            location.replace("index.html");
+        }
+        
     }
-    else 
-    {
-        location.replace("cancorea_index_ko.html");
+
+    function myFunction2() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
     }
-}
+
+    var nav = document.getElementById("myLinks");
+
+    // when the 'click' event is fired on the nav element, call the provided function
+    nav.addEventListener('click', myFunction2);
+
 
 </script>
 </body>
